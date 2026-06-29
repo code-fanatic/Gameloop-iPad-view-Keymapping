@@ -19,13 +19,13 @@
 
 ## ✨ Version Update:
 
-> 🆕 Last Update Date: 15-Jan-2026
-- 🔫 PUBG Mobile `4.3`
-- 🌍 Gameloop `4.1.142.90` (32 bit version)
-- 🌍 Gameloop `5.1.152.90` (64 bit version)
+> 🆕 Last Update Date: 29-Jun-2026
+- 🔫 PUBG Mobile `4.4`
+- 🌍 Gameloop `4.1.143.90` (32 bit version)
+- 🌍 Gameloop `5.1.153.90` (64 bit version)
 
 ## 📜 Change logs:
-- Ported to PUBG Mobile 4.3
+- Ported to PUBG Mobile 4.4
 
 ## ❌ Not yet working:
 - Scope Zoom with scroll wheel (middle mouse button)
