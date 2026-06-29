@@ -20,12 +20,12 @@
 ## ✨ Version Update:
 
 > 🆕 Last Update Date: 15-Jan-2026
-- 🔫 PUBG Mobile `4.2`
+- 🔫 PUBG Mobile `4.3`
 - 🌍 Gameloop `4.1.142.90` (32 bit version)
 - 🌍 Gameloop `5.1.152.90` (64 bit version)
 
 ## 📜 Change logs:
-- Ported to PUBG Mobile 4.2
+- Ported to PUBG Mobile 4.3
 
 ## ❌ Not yet working:
 - Scope Zoom with scroll wheel (middle mouse button)
@@ -33,11 +33,11 @@
 
 ## ⚠️ Attention
 > **Note**
-> Please verify [version](https://github.com/cool-dev-code/Gameloop-iPad-view-Keymapping/blob/main/Readme.md#-version-update) of `PUBG Mobile`and `Gameloop` before using.
+> Please verify [version](https://github.com/code-fanatic/Gameloop-iPad-view-Keymapping/blob/main/Readme.md#-version-update) of `PUBG Mobile`and `Gameloop` before using.
 
 ## ⬇️ How to get iPad View .. *(Automatic Method)*:
 - Close Gameloop if running.
-- Open this file `iPad-View-(Shuja-Plays).bat` [download here](https://raw.githubusercontent.com/cool-dev-code/Gameloop-iPad-view-Keymapping/refs/heads/main/IPad-View-(Shuja-Plays).bat)
+- Open this file `iPad-View-(Shuja-Plays).bat` [download here](https://raw.githubusercontent.com/code-fanatic/Gameloop-iPad-view-Keymapping/refs/heads/main/IPad-View-(Shuja-Plays).bat)
 - Follow the Steps in this file
 - Enjoy iPad View 😀
 
@@ -48,11 +48,11 @@
 C:\Users\%USERPROFILE%\AppData\Roaming\AndroidTbox
 ```
 - Click Enter.
-- Replace your `TVM_100.xml` file with [this](https://github.com/cool-dev-code/Gameloop-iPad-view-Keymapping/releases) file.
+- Replace your `TVM_100.xml` file with [this](https://github.com/code-fanatic/Gameloop-iPad-view-Keymapping/releases) file.
 - You are Done. Enjoy :)
 
 ## 💻 iPad Resolution Calculator
-- Goto [my website](https://cool-dev-code.github.io/iPad-View-Calculator/) to calculate your resolution
+- Goto [my website](https://code-fanatic.github.io/iPad-View-Calculator/) to calculate your resolution
 ## ☑️ Suggested Resolutions
 |	Display Resolution	|	Engine Resolution	|	Game Definition	|
 |	:-------------:	|	:------------:	|	:------------:	|
@@ -61,8 +61,8 @@ C:\Users\%USERPROFILE%\AppData\Roaming\AndroidTbox
 |	<b>2560x1440</b>	|	1920x1440	|	FHD 2K	|
 
 ## 🎗️ More
-- 📚 [Wiki](https://github.com/cool-dev-code/Gameloop-iPad-view-Keymapping/wiki) - For more details.
-- 😩 Problems? - [Check Issues](https://github.com/cool-dev-code/Gameloop-iPad-view-Keymapping/issues) on GitHub or open a new issue.
+- 📚 [Wiki](https://github.com/code-fanatic/Gameloop-iPad-view-Keymapping/wiki) - For more details.
+- 😩 Problems? - [Check Issues](https://github.com/code-fanatic/Gameloop-iPad-view-Keymapping/issues) on GitHub or open a new issue.
 - 🚫 If I am not available, Ask me on Discord 👇
 
 ## 💬 Contact Me

@@ -1,7 +1,7 @@
-<Item ApkName="com.tencent.ig" 备注="PUBG Mobile Global (iPad View) - Zorito" VersionCode="17000">
-<StartInfo StartTimes="3"/>
-<LastMode ModeID="3" EnableTips="0" EnableGameKeyDT="1" TipsTransparent="0.500000" Lightness="1.000000" EnableSwitchViewLockMethod="0" ExitFullScreenKey="122"/>
-<VersionInfo Version="72" ReqFeatureVer="7" CurFeatureVer="8"/>
+<Item ApkName="com.tencent.ig" 备注="PUBG Mobile Global (iPad View) - code-fanatic" VersionCode="17000">
+<StartInfo StartTimes="1"/>
+<LastMode ModeID="1" EnableTips="0" EnableGameKeyDT="1" TipsTransparent="0.500000" Lightness="1.000000" EnableSwitchViewLockMethod="0" ExitFullScreenKey="122"/>
+<VersionInfo Version="73" ReqFeatureVer="7" CurFeatureVer="8"/>
 <Switch Name="AdjustMultiples" TextureId="81"/>
 <Switch Name="AdjustMultiplesPressed" TextureId="82"/>
 <Switch Name="Apple" TextureId="89"/>
@@ -88,6 +88,7 @@
 <Switch Name="Triangle" TextureId="45"/>
 <Switch Name="WASDControl" TextureId="5"/>
 <Switch Name="Whistle" TextureId="33"/>
+<Switch Name="Whistle1" TextureId="90"/>
 <Switch Name="XBtn" TextureId="18"/>
 <Switch Name="YouGood" TextureId="88"/>
 <Switch Name="openquit" TextureId="100"/>
@@ -108,7 +109,7 @@
 <KeyMapping ItemName="9" Point_X="0.177734" Point_Y="0.955556" Description="Bandage" MiniVisiable="true" MiniDisable="false" AutoCancel="0" AsciiCode="57" KeyMouseSlideType="1" KeyMouseSlidePoints="(0.291016,0.954167,0)(0.290039,0.954167,16)(0.287109,0.954167,15)(0.284180,0.954167,16)(0.274414,0.955556,16)(0.259766,0.955556,15)(0.241211,0.955556,16)(0.221680,0.955556,15)(0.193359,0.955556,16)(0.177734,0.955556,16)(0.177734,0.955556,0)"/>
 <KeyMapping ItemName="C" Point_X="0.943359" Point_Y="0.912500" Description="Crouch" MiniVisiable="false" MiniDisable="false" AsciiCode="67"/>
 <KeyMapping ItemName="E" Point_X="0.220703" Point_Y="0.493056" Description="Peek" MiniVisiable="false" MiniDisable="false" AsciiCode="69"/>
-<KeyMapping ItemName="F" Point_X="0.669922" Point_Y="0.286111" Description="Zorito PUBGM 3.9 iPad View" MiniVisiable="false" MiniDisable="false" AsciiCode="70"/>
+<KeyMapping ItemName="F" Point_X="0.669922" Point_Y="0.286111" Description="code-fanatic PUBGM 4.3 iPad View" MiniVisiable="false" MiniDisable="false" AsciiCode="70"/>
 <KeyMapping ItemName="G" Point_X="0.668945" Point_Y="0.388889" Description="Ride" MiniVisiable="false" MiniDisable="false" AsciiCode="71"/>
 <KeyMapping ItemName="H" Point_X="0.668945" Point_Y="0.445833" Description="Pickup" MiniVisiable="false" MiniDisable="false" AsciiCode="72"/>
 <KeyMapping ItemName="J" Point_X="0.297852" Point_Y="0.641667" Description="Auto Jump" MiniVisiable="true" MiniDisable="false" AutoCancel="0" AsciiCode="74"/>
@@ -123,13 +124,11 @@
 <KeyMappingEx ItemName="WASD" Point_X="0.158594" Point_Y="0.751389" Description="字母键" MiniVisiable="false" MiniDisable="false" Type="CrossKey" speed="0" UP_AsciiCode="87" DOWN_AsciiCode="83" LEFT_AsciiCode="65" RIGHT_AsciiCode="68" Offset="0.070258" ShiftOffset="0.100000"/>
 <KeyMappingEx ItemName="Left Mouse Button" Point_X="0.068359" Point_Y="0.511111" Description="Fire" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" Type="LClick" LOCK_AsciiCode="192"/>
 <KeyMappingEx ItemName="Move with Mouse" Point_X="0.543680" Point_Y="0.378412" Description="View Point" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" Raw="1" Type="RClick" RawInputOffset="0.300000" Sensi_X="1.000000" Sensi_Y="1.000000"/>
-<KeyMappingEx ItemName="Alt" Point_X="0.777875" Point_Y="0.240099" Description="Free view" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="1001" OpGuidClass="0" InUseDisableView="1" Type="KeyMove" Offset="230" Click_X="0.500000" Click_Y="0.550000" Click_Offset="0.450000" AsciiCode="18" Cancel_X="-0.911133" Cancel_Y="-0.277778" Click_Left="1" ReleaseNow="0" Center_X="0.000000" Center_Y="0.000000" StopMoving="0" NeedPressed="1" Center_XY_Disable="1" Delay="0"/>
+<KeyMappingEx ItemName="Alt" Point_X="0.777875" Point_Y="0.240099" Description="Free view" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="1001" OpGuidClass="0" InUseDisableView="1" Type="KeyMove" Offset="230" Click_X="0.500000" Click_Y="0.550000" Click_Offset="0.450000" AsciiCode="18" Cancel_X="-0.911133" Cancel_Y="-0.277778" Click_Left="1" ReleaseNow="0" Center_X="0.000000" Center_Y="0.000000" StopMoving="0" NeedPressed="1" UseMousePos="0" Center_XY_Disable="1" Delay="0"/>
 </KeyMapMode>
 <KeyMapMode ModeID="2" Name="iPad 720" ShowTipsAlways="1">
 <KeyMapping ItemName="Right Click" Point_X="0.934982" Point_Y="0.725260" Description="Scope Open/Close" MiniVisiable="false" MiniDisable="false" ShowOnLockAsciiCode="192" AsciiCode="-2">
 <SwitchOperation Description="飞行" EnableSwitch="Fly1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.817969" Point_Y="0.822222"/>
-<SwitchOperation Description="上飞（翼龙）" EnableSwitch="Fly2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.826250" Point_Y="0.783333"/>
-<SwitchOperation Description="上飞中（翼龙）" EnableSwitch="Fly3" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.826250" Point_Y="0.783333"/>
 <SwitchOperation Description="瞄准" EnableSwitch="Sniper" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.963281" Point_Y="0.641089" HideTips="1"/>
 <SwitchOperation Description="瞄准" EnableSwitch="Sniper2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.963281" Point_Y="0.641089" HideTips="1"/>
 <SwitchOperation Description="抛手雷" EnableSwitch="ThrowHigh" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.767188" Point_Y="0.938889"/>
@@ -152,8 +151,6 @@
 <SwitchOperation Description="加速" EnableSwitch="Whistle" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.811719" Point_Y="0.776389"/>
 <SwitchOperation Description="自行车" EnableSwitch="Bicycle" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.806875" Point_Y="0.774444"/>
 <SwitchOperation Description="自行车按着" EnableSwitch="Bicycle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.806875" Point_Y="0.774444"/>
-<SwitchOperation Description="上飞（翼龙）" EnableSwitch="Fly2" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.631041" Point_Y="0.760546"/>
-<SwitchOperation Description="上飞中（翼龙）" EnableSwitch="Fly3" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.631041" Point_Y="0.760546"/>
 </KeyMapping>
 <KeyMapping ItemName="Esc" Point_X="0.847985" Point_Y="0.040365" Description="Close" MiniVisiable="false" MiniDisable="false" AsciiCode="27">
 <SwitchOperation Description="折叠快递包(有检物,有快递包,开背包)" EnableSwitch="Pickup|ClickPickup|XBtn" DisableSwitch="MapOpenFlag" Point_X="0.322656" Point_Y="0.258333" TexturePosition="Pickup"/>
@@ -169,10 +166,11 @@
 <SwitchOperation Description="上潜" EnableSwitch="SwimUp" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.840149" Point_Y="0.698511" HideTips="1"/>
 <SwitchOperation Description="上潜中" EnableSwitch="SwimmingUp" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.840149" Point_Y="0.698511" HideTips="1"/>
 <SwitchOperation Description="刹车" EnableSwitch="Whistle" DisableSwitch="XBtn|MapOpenFlag|InSetUp|DriveMode1Press|DriveMode1" Point_X="0.909851" Point_Y="0.662531"/>
+<SwitchOperation Description="刹车" EnableSwitch="Whistle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp|DriveMode1Press|DriveMode1" Point_X="0.911719" Point_Y="0.541667"/>
+<SwitchOperation Description="刹车1（载具模式）" EnableSwitch="Whistle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.060000" Point_Y="0.662222" HideTips="1"/>
 <SwitchOperation Description="刹车1（载具模式）" EnableSwitch="Whistle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.067844" Point_Y="0.743812" HideTips="1"/>
 <SwitchOperation Description="自行车" EnableSwitch="Bicycle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.908125" Point_Y="0.537778"/>
 <SwitchOperation Description="自行车按着" EnableSwitch="Bicycle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.908125" Point_Y="0.537778"/>
-<SwitchOperation Description="跳跃（迅猛龙）" EnableSwitch="Jump1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.689591" Point_Y="0.584367"/>
 </KeyMapping>
 <KeyMapping ItemName="0" Point_X="0.260073" Point_Y="0.877604" Description="Energy Drink" MiniVisiable="true" MiniDisable="false" AutoCancel="0" AsciiCode="48" KeyMouseSlideType="1" KeyMouseSlidePoints="(0.309570,0.943056,0)(0.308594,0.941667,187)(0.307617,0.940278,16)(0.306641,0.937500,16)(0.302734,0.927778,15)(0.297852,0.916667,16)(0.291992,0.904167,16)(0.286133,0.890278,15)(0.284180,0.883333,0)">
 <SwitchOperation Description="Energy Drink" EnableSwitch="Jump" DisableSwitch="XBtn|MapOpenFlag|InSetUp"/>
@@ -240,10 +238,8 @@
 <SwitchOperation Description="摩托抬头压着" EnableSwitch="Moto2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.807031" Point_Y="0.635236"/>
 <SwitchOperation Description="自行车" EnableSwitch="Bicycle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.803125" Point_Y="0.513333"/>
 <SwitchOperation Description="自行车按着" EnableSwitch="Bicycle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.803125" Point_Y="0.513333"/>
-<SwitchOperation Description="吼叫（霸王龙）" EnableSwitch="Bellow" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.806691" Point_Y="0.640199"/>
-<SwitchOperation Description="停止（霸王龙）" EnableSwitch="Stop" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.806691" Point_Y="0.640199"/>
 </KeyMapping>
-<KeyMapping ItemName="F" Point_X="0.520508" Point_Y="0.150000" Description="Zorito PUBGM 3.9 iPad View" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="1002" OpGuidClass="0" AsciiCode="70">
+<KeyMapping ItemName="F" Point_X="0.520508" Point_Y="0.150000" Description="code-fanatic PUBGM 4.3 iPad View" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="1002" OpGuidClass="0" AsciiCode="70">
 <SwitchOperation Description="救人" EnableSwitch="Help" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.502344" Point_Y="0.612500" TexturePosition="Help"/>
 <SwitchOperation Description="取消丢雷" EnableSwitch="CancelFireTheHole" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.253906" Point_Y="0.520833" TexturePosition="CancelFireTheHole"/>
 <SwitchOperation Description="下车" EnableSwitch="GetOutCar" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.870000" Point_Y="0.452222" HideTips="1" TexturePosition="GetOutCar"/>
@@ -259,7 +255,6 @@
 <SwitchOperation Description="缆绳" EnableSwitch="openquit" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.679356" Point_Y="0.675781" TexturePosition="openquit"/>
 <SwitchOperation Description="商店" EnableSwitch="Shop" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.677160" Point_Y="0.721354" TexturePosition="Shop"/>
 <SwitchOperation Description="拒绝救回" EnableSwitch="Help1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" TexturePosition="Help1"/>
-<SwitchOperation Description="驯服" EnableSwitch="Tame" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.671933" Point_Y="0.766749"/>
 <SwitchOperation Description="点开快递包(有手，开背包)" EnableSwitch="XBtn|ClickPacket|ClickPickup" DisableSwitch="MapOpenFlag" Point_X="0.319531" Point_Y="0.245833" TexturePosition="ClickPacket"/>
 <SwitchOperation Description="点开快递包(有手，没开背包)" EnableSwitch="ClickPacket|ClickPickup" DisableSwitch="MapOpenFlag|XBtn" Point_X="0.664844" Point_Y="0.245833" TexturePosition="ClickPacket"/>
 <SwitchOperation Description="点开快递包(无手，开背包)" EnableSwitch="ClickPacket|XBtn" DisableSwitch="MapOpenFlag" Point_X="0.367188" Point_Y="0.245833" TexturePosition="ClickPacket"/>
@@ -270,6 +265,7 @@
 <SwitchOperation Description="跳伞" EnableSwitch="Parachute" Point_X="0.219531" Point_Y="0.426389" TexturePosition="Parachute"/>
 <SwitchOperation Description="开伞" EnableSwitch="Parachute2" Point_X="0.863281" Point_Y="0.784722" TexturePosition="Parachute2"/>
 <SwitchOperation Description="上车" EnableSwitch="GetIntoCar" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.656250" Point_Y="0.419444" TexturePosition="GetIntoCar"/>
+<SwitchOperation Description="驾驶（自行车）" EnableSwitch="GetIntoCar1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" TexturePosition="GetIntoCar1"/>
 <SwitchOperation Description="上车乘坐(驾驶位有人)" EnableSwitch="ByCar" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.656250" Point_Y="0.419444" TexturePosition="ByCar"/>
 <SwitchOperation Description="取消吃药" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.502344" Point_Y="0.765278" HideTips="1"/>
 </KeyMapping>
@@ -285,12 +281,11 @@
 <SwitchOperation Description="捡物(打开背包时)" EnableSwitch="Pickup|XBtn" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.324349" Point_Y="0.342432"/>
 <SwitchOperation Description="Pickup" EnableSwitch="Pickup" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.672862" Point_Y="0.338710"/>
 <SwitchOperation Description="鸣笛" EnableSwitch="Whistle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.960967" Point_Y="0.784119"/>
+<SwitchOperation Description="鸣笛" EnableSwitch="Whistle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.950781" Point_Y="0.687500"/>
 <SwitchOperation Description="车上抻出头射击" EnableSwitch="OutCarShoot" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.960967" Point_Y="0.784119"/>
 <SwitchOperation Description="车上抻出头射击" EnableSwitch="OutCarShoot2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.960967" Point_Y="0.784119"/>
 <SwitchOperation Description="背扶" EnableSwitch="Climb1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.601757" Point_Y="0.610677" TexturePosition="Climb1"/>
 <SwitchOperation Description="盾牌" EnableSwitch="shield" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.741581" Point_Y="0.828125" TexturePosition="shield"/>
-<SwitchOperation Description="上飞（翼龙）" EnableSwitch="Fly2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.722119" Point_Y="0.756824"/>
-<SwitchOperation Description="上飞中（翼龙）" EnableSwitch="Fly3" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.722119" Point_Y="0.756824"/>
 </KeyMapping>
 <KeyMapping ItemName="H" Point_X="0.671245" Point_Y="0.438802" Description="Pickup" MiniVisiable="false" MiniDisable="false" AsciiCode="72">
 <SwitchOperation Description="捡物,开着门(打开背包时)" EnableSwitch="DoorOpen|Pickup|XBtn" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.306250" Point_Y="0.443056"/>
@@ -318,8 +313,6 @@
 <SwitchOperation Description="摩托抬头压着" EnableSwitch="Moto2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.715625" Point_Y="0.635236"/>
 <SwitchOperation Description="自行车" EnableSwitch="Bicycle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.707500" Point_Y="0.515556"/>
 <SwitchOperation Description="自行车按着" EnableSwitch="Bicycle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.707500" Point_Y="0.515556"/>
-<SwitchOperation Description="吼叫（霸王龙）" EnableSwitch="Bellow" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.716543" Point_Y="0.638958"/>
-<SwitchOperation Description="停止（霸王龙）" EnableSwitch="Stop" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.716543" Point_Y="0.638958"/>
 </KeyMapping>
 <KeyMapping ItemName="R" Point_X="0.763937" Point_Y="0.950372" Description="Reload" MiniVisiable="false" MiniDisable="false" AsciiCode="82">
 <SwitchOperation Description="Reload" EnableSwitch="Reload" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.765625" Point_Y="0.937500" TexturePosition="Reload"/>
@@ -351,8 +344,6 @@
 </KeyMappingEx>
 <KeyMappingEx ItemName="Left Mouse Button" Point_X="0.049451" Point_Y="0.505208" Description="Fire" MiniVisiable="false" MiniDisable="false" AutoActive="1" Type="LClick" LOCK_AsciiCode="192">
 <SwitchOperation Description="飞行" EnableSwitch="Fly1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.818750" Point_Y="0.591667"/>
-<SwitchOperation Description="上飞（翼龙）" EnableSwitch="Fly2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.842937" Point_Y="0.898263"/>
-<SwitchOperation Description="上飞中（翼龙）" EnableSwitch="Fly3" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.842937" Point_Y="0.898263"/>
 <SwitchOperation Description="鸣笛" EnableSwitch="Whistle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.960967" Point_Y="0.784119" HideTips="1"/>
 <SwitchOperation Description="自行车" EnableSwitch="Bicycle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.948125" Point_Y="0.687778" HideTips="1"/>
 <SwitchOperation Description="自行车按着" EnableSwitch="Bicycle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.948125" Point_Y="0.687778" HideTips="1"/>
@@ -362,7 +353,7 @@
 <KeyMappingEx ItemName="Move with Mouse" Point_X="0.516406" Point_Y="0.333333" Description="View Point" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" AutoActive="1" Raw="1" Type="RClick" Offset="0.450000" LOCK_AsciiCode="192" AsciiCode="17" Sensi_X="1.000000" Sensi_Y="1.000000">
 <SwitchOperation Description="View Point" EnableSwitch="SetUp" DisableSwitch="MapOpenFlag|XBtn|InSetUp|EmojiPressed|Shop1"/>
 </KeyMappingEx>
-<KeyMappingEx ItemName="Alt" Point_X="0.777875" Point_Y="0.240099" Description="Free view" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="0" OpGuidClass="0" HideTipsAlways="1" InUseDisableView="1" Type="KeyMove" Offset="0.490000" Click_X="0.776563" Click_Y="0.309722" Click_Offset="0.450000" AsciiCode="18" Cancel_X="-0.911133" Cancel_Y="-0.277778" Click_Left="1" ReleaseNow="0" Center_X="0.000000" Center_Y="0.000000" StopMoving="0" NeedPressed="1" Center_XY_Disable="1" Delay="50">
+<KeyMappingEx ItemName="Alt" Point_X="0.777875" Point_Y="0.240099" Description="Free view" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="0" OpGuidClass="0" HideTipsAlways="1" InUseDisableView="1" Type="KeyMove" Offset="0.490000" Click_X="0.776563" Click_Y="0.309722" Click_Offset="0.450000" AsciiCode="18" Cancel_X="-0.911133" Cancel_Y="-0.277778" Click_Left="1" ReleaseNow="0" Center_X="0.000000" Center_Y="0.000000" StopMoving="0" NeedPressed="1" UseMousePos="0" Center_XY_Disable="1" Delay="50">
 <SwitchOperation Description="Free view" EnableSwitch="Eye" DisableSwitch="XBtn|MapOpenFlag|InSetUp"/>
 <SwitchOperation Description="Free view" EnableSwitch="OpenEye" DisableSwitch="XBtn|MapOpenFlag|InSetUp"/>
 </KeyMappingEx>
@@ -451,11 +442,8 @@
 <SwitchOperation Description="小白点" EnableSwitch="AdjustMultiplesPressed|SlipWhitePoint" NotifyController="1" TexturePosition="SlipWhitePoint"/>
 </KeyMappingEx>
 </KeyMapMode>
-<KeyMapMode ModeID="3" Name="iPad 1080" ShowTipsAlways="1">
+<KeyMapMode ModeID="3" Name="iPad 1080" ShowTipsAlways="1" CurrModeEnableTips="1">
 <KeyMapping ItemName="Right Click" Point_X="0.971094" Point_Y="0.724566" Description="Scope Open/Close" MiniVisiable="false" MiniDisable="false" ShowOnLockAsciiCode="192" AsciiCode="-2">
-<SwitchOperation Description="上飞（翼龙）" EnableSwitch="Fly2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.888502" Point_Y="0.918317"/>
-<SwitchOperation Description="上飞中（翼龙）" EnableSwitch="Fly3" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.888502" Point_Y="0.918317"/>
-<SwitchOperation Description="上飞中（翼龙）" EnableSwitch="Fly3" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.872396" Point_Y="0.839815"/>
 <SwitchOperation Description="瞄准" EnableSwitch="Sniper" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.972125" Point_Y="0.724566" HideTips="1"/>
 <SwitchOperation Description="瞄准" EnableSwitch="Sniper2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.972125" Point_Y="0.724566" HideTips="1"/>
 <SwitchOperation Description="抛手雷" EnableSwitch="ThrowHigh" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.823438" Point_Y="0.958333"/>
@@ -471,15 +459,15 @@
 <SwitchOperation Description="3级背包" EnableSwitch="Backpage3" DisableSwitch="InSetUp" Point_X="0.054688" Point_Y="0.931944"/>
 </KeyMapping>
 <KeyMapping ItemName="Shift" Point_X="0.861722" Point_Y="0.875000" Description="Run / Speed Boost Car" MiniVisiable="false" MiniDisable="false" AsciiCode="16">
-<SwitchOperation Description="加速(驾驶模式1)" EnableSwitch="DriveMode1|DriveSpeed" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.058362" Point_Y="0.655087"/>
-<SwitchOperation Description="加速(驾驶模式1)" EnableSwitch="DriveMode1|DriveSpeedPress" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.058362" Point_Y="0.655087"/>
+<SwitchOperation Description="加速(驾驶模式1)" EnableSwitch="DriveMode1" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.058362" Point_Y="0.655087"/>
+<SwitchOperation Description="加速(驾驶模式1)" EnableSwitch="DriveMode1Press" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.058362" Point_Y="0.655087"/>
 <SwitchOperation Description="加速(驾驶模式2)" EnableSwitch="DriveSpeed" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.861722" Point_Y="0.875000"/>
 <SwitchOperation Description="加速(驾驶模式2)" EnableSwitch="DriveSpeedPress" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.861722" Point_Y="0.875000"/>
 <SwitchOperation Description="加速" EnableSwitch="Whistle" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.863281" Point_Y="0.844444"/>
+<SwitchOperation Description="刹车" EnableSwitch="Whistle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp|DriveMode1Press|DriveMode1" Point_X="0.935937" Point_Y="0.663889"/>
+<SwitchOperation Description="刹车1（载具模式）" EnableSwitch="Whistle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.039531" Point_Y="0.765625" HideTips="1"/>
 <SwitchOperation Description="自行车" EnableSwitch="Bicycle" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.864062" Point_Y="0.838889"/>
 <SwitchOperation Description="自行车按着" EnableSwitch="Bicycle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.864062" Point_Y="0.838889"/>
-<SwitchOperation Description="上飞（翼龙）" EnableSwitch="Fly2" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.737805" Point_Y="0.810174"/>
-<SwitchOperation Description="上飞中（翼龙）" EnableSwitch="Fly3" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.737805" Point_Y="0.810174"/>
 </KeyMapping>
 <KeyMapping ItemName="Esc" Point_X="0.890110" Point_Y="0.040365" Description="Close" MiniVisiable="false" MiniDisable="false" AsciiCode="27">
 <SwitchOperation Description="折叠快递包(有检物,有快递包,开背包)" EnableSwitch="Pickup|ClickPickup|XBtn" DisableSwitch="MapOpenFlag" Point_X="0.502344" Point_Y="0.441667" TexturePosition="Pickup"/>
@@ -498,7 +486,6 @@
 <SwitchOperation Description="Brake(Drive Mode 1)" EnableSwitch="Whistle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.045539" Point_Y="0.816832" HideTips="1"/>
 <SwitchOperation Description="自行车" EnableSwitch="Bicycle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.932292" Point_Y="0.669444"/>
 <SwitchOperation Description="自行车按着" EnableSwitch="Bicycle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.932292" Point_Y="0.669444"/>
-<SwitchOperation Description="跳跃（迅猛龙）" EnableSwitch="Jump1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.779617" Point_Y="0.681931"/>
 </KeyMapping>
 <KeyMapping ItemName="0" Point_X="0.321429" Point_Y="0.904948" Description="Energy Drink" MiniVisiable="true" MiniDisable="false" AutoCancel="0" AsciiCode="48" KeyMouseSlideType="1" KeyMouseSlidePoints="(0.362637,0.960938,0)(0.361722,0.962240,110)(0.360806,0.960938,15)(0.357143,0.954427,16)(0.350733,0.945313,16)(0.342491,0.934896,15)(0.336081,0.928385,16)(0.335165,0.927083,0)">
 <SwitchOperation Description="Energy Drink" EnableSwitch="Jump" DisableSwitch="XBtn|MapOpenFlag|InSetUp"/>
@@ -566,10 +553,8 @@
 <SwitchOperation Description="摩托抬头压着" EnableSwitch="Moto2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.861498" Point_Y="0.723325"/>
 <SwitchOperation Description="自行车" EnableSwitch="Bicycle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.863240" Point_Y="0.722772"/>
 <SwitchOperation Description="自行车按着" EnableSwitch="Bicycle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.863240" Point_Y="0.722772"/>
-<SwitchOperation Description="吼叫（霸王龙）" EnableSwitch="Bellow" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.863240" Point_Y="0.722772"/>
-<SwitchOperation Description="停止（霸王龙）" EnableSwitch="Stop" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.863240" Point_Y="0.722772"/>
 </KeyMapping>
-<KeyMapping ItemName="F" Point_X="0.518315" Point_Y="0.042969" Description="Zorito PUBGM 3.9 iPad View" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="1002" OpGuidClass="0" AsciiCode="70">
+<KeyMapping ItemName="F" Point_X="0.518315" Point_Y="0.042969" Description="code-fanatic PUBGM 4.3 iPad View" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="1002" OpGuidClass="0" AsciiCode="70">
 <SwitchOperation Description="救人" EnableSwitch="Help" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.500781" Point_Y="0.712500" TexturePosition="Help"/>
 <SwitchOperation Description="取消丢雷" EnableSwitch="CancelFireTheHole" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.188281" Point_Y="0.663889" TexturePosition="CancelFireTheHole"/>
 <SwitchOperation Description="下车" EnableSwitch="GetOutCar" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.870000" Point_Y="0.452222" HideTips="1" TexturePosition="GetOutCar"/>
@@ -585,7 +570,6 @@
 <SwitchOperation Description="缆绳" EnableSwitch="openquit" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.679356" Point_Y="0.675781" TexturePosition="openquit"/>
 <SwitchOperation Description="商店" EnableSwitch="Shop" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.677160" Point_Y="0.721354" TexturePosition="Shop"/>
 <SwitchOperation Description="拒绝救回" EnableSwitch="Help1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" TexturePosition="Help1"/>
-<SwitchOperation Description="驯服" EnableSwitch="Tame" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.766551" Point_Y="0.823821"/>
 <SwitchOperation Description="点开快递包(有手，开背包)" EnableSwitch="XBtn|ClickPacket|ClickPickup" DisableSwitch="MapOpenFlag" Point_X="0.504687" Point_Y="0.447222" TexturePosition="ClickPacket"/>
 <SwitchOperation Description="点开快递包(有手，没开背包)" EnableSwitch="ClickPacket|ClickPickup" DisableSwitch="MapOpenFlag|XBtn" Point_X="0.757031" Point_Y="0.447222" TexturePosition="ClickPacket"/>
 <SwitchOperation Description="点开快递包(无手，开背包)" EnableSwitch="ClickPacket|XBtn" DisableSwitch="MapOpenFlag" Point_X="0.531250" Point_Y="0.447222" TexturePosition="ClickPacket"/>
@@ -596,6 +580,7 @@
 <SwitchOperation Description="跳伞" EnableSwitch="Parachute" Point_X="0.164063" Point_Y="0.390278" TexturePosition="Parachute"/>
 <SwitchOperation Description="开伞" EnableSwitch="Parachute2" Point_X="0.897656" Point_Y="0.843056" TexturePosition="Parachute2"/>
 <SwitchOperation Description="上车" EnableSwitch="GetIntoCar" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.757031" Point_Y="0.573611" TexturePosition="GetIntoCar"/>
+<SwitchOperation Description="驾驶（自行车）" EnableSwitch="GetIntoCar1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" TexturePosition="GetIntoCar1"/>
 <SwitchOperation Description="上车乘坐(驾驶位有人)" EnableSwitch="ByCar" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.757031" Point_Y="0.603271" TexturePosition="ByCar"/>
 <SwitchOperation Description="取消吃药" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.500000" Point_Y="0.825000" HideTips="1"/>
 </KeyMapping>
@@ -611,12 +596,11 @@
 <SwitchOperation Description="捡物(打开背包时)" EnableSwitch="Pickup|XBtn" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.517422" Point_Y="0.246898"/>
 <SwitchOperation Description="Pickup" EnableSwitch="Pickup" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.760453" Point_Y="0.252475"/>
 <SwitchOperation Description="鸣笛" EnableSwitch="Whistle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.965157" Point_Y="0.825062"/>
+<SwitchOperation Description="鸣笛" EnableSwitch="Whistle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.966406" Point_Y="0.770833"/>
 <SwitchOperation Description="车上抻出头射击" EnableSwitch="OutCarShoot" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.966028" Point_Y="0.799007"/>
 <SwitchOperation Description="车上抻出头射击" EnableSwitch="OutCarShoot2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.966028" Point_Y="0.799007"/>
 <SwitchOperation Description="背扶" EnableSwitch="Climb1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.601757" Point_Y="0.610677" TexturePosition="Climb1"/>
 <SwitchOperation Description="盾牌" EnableSwitch="shield" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.741581" Point_Y="0.828125" TexturePosition="shield"/>
-<SwitchOperation Description="上飞（翼龙）" EnableSwitch="Fly2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.801394" Point_Y="0.813896"/>
-<SwitchOperation Description="上飞中（翼龙）" EnableSwitch="Fly3" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.801394" Point_Y="0.813896"/>
 </KeyMapping>
 <KeyMapping ItemName="H" Point_X="0.762821" Point_Y="0.316406" Description="Pickup" MiniVisiable="false" MiniDisable="false" AsciiCode="72">
 <SwitchOperation Description="捡物,开着门(打开背包时)" EnableSwitch="DoorOpen|Pickup|XBtn" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.467187" Point_Y="0.340278"/>
@@ -643,8 +627,6 @@
 <SwitchOperation Description="摩托抬头压着" EnableSwitch="Moto2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.720844" Point_Y="0.720844"/>
 <SwitchOperation Description="自行车" EnableSwitch="Bicycle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.804007" Point_Y="0.727723"/>
 <SwitchOperation Description="自行车按着" EnableSwitch="Bicycle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.804007" Point_Y="0.727723"/>
-<SwitchOperation Description="吼叫（霸王龙）" EnableSwitch="Bellow" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.804007" Point_Y="0.727723"/>
-<SwitchOperation Description="停止（霸王龙）" EnableSwitch="Stop" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.804007" Point_Y="0.727723"/>
 </KeyMapping>
 <KeyMapping ItemName="R" Point_X="0.830139" Point_Y="0.964020" Description="Reload" MiniVisiable="false" MiniDisable="false" AsciiCode="82">
 <SwitchOperation Description="Reload" EnableSwitch="Reload" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.824219" Point_Y="0.952778" TexturePosition="Reload"/>
@@ -685,7 +667,7 @@
 <KeyMappingEx ItemName="Move with Mouse" Point_X="0.516406" Point_Y="0.333333" Description="View Point" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" AutoActive="1" Raw="1" Type="RClick" Offset="0.050000" LOCK_AsciiCode="192" AsciiCode="17" Sensi_X="1.000000" Sensi_Y="1.000000">
 <SwitchOperation Description="View Point" EnableSwitch="SetUp" DisableSwitch="MapOpenFlag|XBtn|InSetUp|EmojiPressed|Shop1"/>
 </KeyMappingEx>
-<KeyMappingEx ItemName="Alt" Point_X="0.838290" Point_Y="0.169975" Description="Free view" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="0" OpGuidClass="0" HideTipsAlways="1" InUseDisableView="1" Type="KeyMove" Offset="0.490000" Click_X="0.834375" Click_Y="0.230556" Click_Offset="0.450000" AsciiCode="18" Cancel_X="-0.911133" Cancel_Y="-0.277778" Click_Left="1" ReleaseNow="0" Center_X="0.000000" Center_Y="0.000000" StopMoving="0" NeedPressed="1" Center_XY_Disable="1" Delay="50">
+<KeyMappingEx ItemName="Alt" Point_X="0.838290" Point_Y="0.169975" Description="Free view" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="0" OpGuidClass="0" HideTipsAlways="1" InUseDisableView="1" Type="KeyMove" Offset="0.490000" Click_X="0.834375" Click_Y="0.230556" Click_Offset="0.450000" AsciiCode="18" Cancel_X="-0.911133" Cancel_Y="-0.277778" Click_Left="1" ReleaseNow="0" Center_X="0.000000" Center_Y="0.000000" StopMoving="0" NeedPressed="1" UseMousePos="0" Center_XY_Disable="1" Delay="50">
 <SwitchOperation Description="Free view" EnableSwitch="Eye" DisableSwitch="XBtn|MapOpenFlag|InSetUp"/>
 <SwitchOperation Description="Free view" EnableSwitch="OpenEye" DisableSwitch="XBtn|MapOpenFlag|InSetUp"/>
 </KeyMappingEx>
@@ -777,8 +759,6 @@
 <KeyMapMode ModeID="4" Name="iPad 2K" ShowTipsAlways="1" CurrModeEnableTips="1">
 <KeyMapping ItemName="Right Click" Point_X="0.971094" Point_Y="0.724566" Description="Scope Open/Close" MiniVisiable="false" MiniDisable="false" ShowOnLockAsciiCode="192" AsciiCode="-2">
 <SwitchOperation Description="飞行" EnableSwitch="Fly1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.865625" Point_Y="0.866667"/>
-<SwitchOperation Description="上飞（翼龙）" EnableSwitch="Fly2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.888502" Point_Y="0.918317"/>
-<SwitchOperation Description="上飞中（翼龙）" EnableSwitch="Fly3" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.888502" Point_Y="0.918317"/>
 <SwitchOperation Description="瞄准" EnableSwitch="Sniper" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.971094" Point_Y="0.724566" HideTips="1"/>
 <SwitchOperation Description="瞄准" EnableSwitch="Sniper2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.971094" Point_Y="0.724566" HideTips="1"/>
 <SwitchOperation Description="抛手雷" EnableSwitch="ThrowHigh" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.823438" Point_Y="0.958333"/>
@@ -801,8 +781,6 @@
 <SwitchOperation Description="加速" EnableSwitch="Whistle" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.863281" Point_Y="0.844444"/>
 <SwitchOperation Description="自行车" EnableSwitch="Bicycle" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.863281" Point_Y="0.844444"/>
 <SwitchOperation Description="自行车按着" EnableSwitch="Bicycle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.863281" Point_Y="0.844444"/>
-<SwitchOperation Description="上飞（翼龙）" EnableSwitch="Fly2" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.737805" Point_Y="0.810174"/>
-<SwitchOperation Description="上飞中（翼龙）" EnableSwitch="Fly3" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.737805" Point_Y="0.810174"/>
 </KeyMapping>
 <KeyMapping ItemName="Esc" Point_X="0.889194" Point_Y="0.040365" Description="Close" MiniVisiable="false" MiniDisable="false" AsciiCode="27">
 <SwitchOperation Description="折叠快递包(有检物,有快递包,开背包)" EnableSwitch="Pickup|ClickPickup|XBtn" DisableSwitch="MapOpenFlag" Point_X="0.502344" Point_Y="0.441667" TexturePosition="Pickup"/>
@@ -819,9 +797,10 @@
 <SwitchOperation Description="上潜中" EnableSwitch="SwimmingUp" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.878906" Point_Y="0.771712" HideTips="1"/>
 <SwitchOperation Description="刹车" EnableSwitch="Whistle" DisableSwitch="XBtn|MapOpenFlag|InSetUp|DriveMode1Press|DriveMode1" Point_X="0.936411" Point_Y="0.738213"/>
 <SwitchOperation Description="刹车1（载具模式）" EnableSwitch="Whistle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.049652" Point_Y="0.803218" HideTips="1"/>
+<SwitchOperation Description="刹车" EnableSwitch="Whistle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp|DriveMode1Press|DriveMode1" Point_X="0.935937" Point_Y="0.663889"/>
+<SwitchOperation Description="刹车1（载具模式）" EnableSwitch="Whistle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.045388" Point_Y="0.746094" HideTips="1"/>
 <SwitchOperation Description="自行车" EnableSwitch="Bicycle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.936411" Point_Y="0.738213"/>
 <SwitchOperation Description="自行车按着" EnableSwitch="Bicycle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.936411" Point_Y="0.738213"/>
-<SwitchOperation Description="跳跃（迅猛龙）" EnableSwitch="Jump1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.779617" Point_Y="0.681931"/>
 </KeyMapping>
 <KeyMapping ItemName="0" Point_X="0.321429" Point_Y="0.904948" Description="Energy Drink" MiniVisiable="true" MiniDisable="false" AutoCancel="0" AsciiCode="48" KeyMouseSlideType="1" KeyMouseSlidePoints="(0.362637,0.960938,0)(0.361722,0.962240,110)(0.360806,0.960938,15)(0.357143,0.954427,16)(0.350733,0.945313,16)(0.342491,0.934896,15)(0.336081,0.928385,16)(0.335165,0.927083,0)">
 <SwitchOperation Description="Energy Drink" EnableSwitch="Jump" DisableSwitch="XBtn|MapOpenFlag|InSetUp"/>
@@ -890,10 +869,8 @@
 <SwitchOperation Description="摩托抬头压着" EnableSwitch="Moto2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.861498" Point_Y="0.723325"/>
 <SwitchOperation Description="自行车" EnableSwitch="Bicycle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.861498" Point_Y="0.723325"/>
 <SwitchOperation Description="自行车按着" EnableSwitch="Bicycle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.861498" Point_Y="0.723325"/>
-<SwitchOperation Description="吼叫（霸王龙）" EnableSwitch="Bellow" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.863240" Point_Y="0.722772"/>
-<SwitchOperation Description="停止（霸王龙）" EnableSwitch="Stop" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.863240" Point_Y="0.722772"/>
 </KeyMapping>
-<KeyMapping ItemName="F" Point_X="0.516484" Point_Y="0.042969" Description="Zorito PUBGM 3.9 iPad View" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="1002" OpGuidClass="0" AsciiCode="70">
+<KeyMapping ItemName="F" Point_X="0.516484" Point_Y="0.042969" Description="code-fanatic PUBGM 4.3 iPad View" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="1002" OpGuidClass="0" AsciiCode="70">
 <SwitchOperation Description="救人" EnableSwitch="Help" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.500781" Point_Y="0.720833" TexturePosition="Help"/>
 <SwitchOperation Description="取消丢雷" EnableSwitch="CancelFireTheHole" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.188281" Point_Y="0.663889" TexturePosition="CancelFireTheHole"/>
 <SwitchOperation Description="下车" EnableSwitch="GetOutCar" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.870000" Point_Y="0.452222" HideTips="1" TexturePosition="GetOutCar"/>
@@ -909,7 +886,6 @@
 <SwitchOperation Description="缆绳" EnableSwitch="openquit" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.679356" Point_Y="0.675781" TexturePosition="openquit"/>
 <SwitchOperation Description="商店" EnableSwitch="Shop" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.677160" Point_Y="0.721354" TexturePosition="Shop"/>
 <SwitchOperation Description="拒绝救回" EnableSwitch="Help1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" TexturePosition="Help1"/>
-<SwitchOperation Description="驯服" EnableSwitch="Tame" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.763066" Point_Y="0.821782"/>
 <SwitchOperation Description="点开快递包(有手，开背包)" EnableSwitch="XBtn|ClickPacket|ClickPickup" DisableSwitch="MapOpenFlag" Point_X="0.504687" Point_Y="0.447222" TexturePosition="ClickPacket"/>
 <SwitchOperation Description="点开快递包(有手，没开背包)" EnableSwitch="ClickPacket|ClickPickup" DisableSwitch="MapOpenFlag|XBtn" Point_X="0.757031" Point_Y="0.447222" TexturePosition="ClickPacket"/>
 <SwitchOperation Description="点开快递包(无手，开背包)" EnableSwitch="ClickPacket|XBtn" DisableSwitch="MapOpenFlag" Point_X="0.531250" Point_Y="0.447222" TexturePosition="ClickPacket"/>
@@ -920,6 +896,7 @@
 <SwitchOperation Description="跳伞" EnableSwitch="Parachute" Point_X="0.164063" Point_Y="0.390278" TexturePosition="Parachute"/>
 <SwitchOperation Description="开伞" EnableSwitch="Parachute2" Point_X="0.897656" Point_Y="0.843056" TexturePosition="Parachute2"/>
 <SwitchOperation Description="上车" EnableSwitch="GetIntoCar" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.757031" Point_Y="0.573611" TexturePosition="GetIntoCar"/>
+<SwitchOperation Description="驾驶（自行车）" EnableSwitch="GetIntoCar1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" TexturePosition="GetIntoCar1"/>
 <SwitchOperation Description="上车乘坐(驾驶位有人)" EnableSwitch="ByCar" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.757031" Point_Y="0.603271" TexturePosition="ByCar"/>
 <SwitchOperation Description="取消吃药" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.500000" Point_Y="0.825000" HideTips="1"/>
 </KeyMapping>
@@ -935,12 +912,11 @@
 <SwitchOperation Description="捡物(打开背包时)" EnableSwitch="Pickup|XBtn" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.517422" Point_Y="0.246898"/>
 <SwitchOperation Description="Pickup" EnableSwitch="Pickup" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.760453" Point_Y="0.252475"/>
 <SwitchOperation Description="鸣笛" EnableSwitch="Whistle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.967770" Point_Y="0.827543"/>
+<SwitchOperation Description="鸣笛" EnableSwitch="Whistle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.966406" Point_Y="0.770833"/>
 <SwitchOperation Description="车上抻出头射击" EnableSwitch="OutCarShoot" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.966899" Point_Y="0.827543"/>
 <SwitchOperation Description="车上抻出头射击" EnableSwitch="OutCarShoot2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.966899" Point_Y="0.827543"/>
 <SwitchOperation Description="背扶" EnableSwitch="Climb1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.601757" Point_Y="0.610677" TexturePosition="Climb1"/>
 <SwitchOperation Description="盾牌" EnableSwitch="shield" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.741581" Point_Y="0.828125" TexturePosition="shield"/>
-<SwitchOperation Description="上飞（翼龙）" EnableSwitch="Fly2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.803136" Point_Y="0.814356"/>
-<SwitchOperation Description="上飞中（翼龙）" EnableSwitch="Fly3" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.803136" Point_Y="0.814356"/>
 </KeyMapping>
 <KeyMapping ItemName="H" Point_X="0.760989" Point_Y="0.324219" Description="Pickup" MiniVisiable="false" MiniDisable="false" AsciiCode="72">
 <SwitchOperation Description="捡物,开着门(打开背包时)" EnableSwitch="DoorOpen|Pickup|XBtn" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.467187" Point_Y="0.329167"/>
@@ -967,8 +943,6 @@
 <SwitchOperation Description="摩托抬头压着" EnableSwitch="Moto2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.795296" Point_Y="0.720844"/>
 <SwitchOperation Description="自行车" EnableSwitch="Bicycle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.795296" Point_Y="0.720844"/>
 <SwitchOperation Description="自行车按着" EnableSwitch="Bicycle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.795296" Point_Y="0.720844"/>
-<SwitchOperation Description="吼叫（霸王龙）" EnableSwitch="Bellow" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.804007" Point_Y="0.727723"/>
-<SwitchOperation Description="停止（霸王龙）" EnableSwitch="Stop" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.804007" Point_Y="0.727723"/>
 </KeyMapping>
 <KeyMapping ItemName="R" Point_X="0.831010" Point_Y="0.966501" Description="Reload" MiniVisiable="false" MiniDisable="false" AsciiCode="82">
 <SwitchOperation Description="Reload" EnableSwitch="Reload" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.824219" Point_Y="0.952778" TexturePosition="Reload"/>
@@ -1000,8 +974,6 @@
 </KeyMappingEx>
 <KeyMappingEx ItemName="Left Mouse Button" Point_X="0.049219" Point_Y="0.506944" Description="Fire" MiniVisiable="false" MiniDisable="false" AutoActive="1" Type="LClick" LOCK_AsciiCode="192">
 <SwitchOperation Description="飞行" EnableSwitch="Fly1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.818750" Point_Y="0.591667"/>
-<SwitchOperation Description="上飞（翼龙）" EnableSwitch="Fly2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.889373" Point_Y="0.806931"/>
-<SwitchOperation Description="上飞中（翼龙）" EnableSwitch="Fly3" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.889373" Point_Y="0.806931"/>
 <SwitchOperation Description="鸣笛" EnableSwitch="Whistle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.967770" Point_Y="0.827543" HideTips="1"/>
 <SwitchOperation Description="自行车" EnableSwitch="Bicycle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.960417" Point_Y="0.776852" HideTips="1"/>
 <SwitchOperation Description="自行车按着" EnableSwitch="Bicycle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.960417" Point_Y="0.776852" HideTips="1"/>
@@ -1011,7 +983,7 @@
 <KeyMappingEx ItemName="Move with Mouse" Point_X="0.516406" Point_Y="0.333333" Description="View Point" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" AutoActive="1" Raw="1" Type="RClick" Offset="0.450000" LOCK_AsciiCode="192" AsciiCode="17" Sensi_X="1.000000" Sensi_Y="1.000000">
 <SwitchOperation Description="View Point" EnableSwitch="SetUp" DisableSwitch="MapOpenFlag|XBtn|InSetUp|EmojiPressed|Shop1"/>
 </KeyMappingEx>
-<KeyMappingEx ItemName="Alt" Point_X="0.841463" Point_Y="0.176179" Description="Free view" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="0" OpGuidClass="0" HideTipsAlways="1" InUseDisableView="1" Type="KeyMove" Offset="0.490000" Click_X="0.834375" Click_Y="0.230556" Click_Offset="0.450000" AsciiCode="18" Cancel_X="-0.911133" Cancel_Y="-0.277778" Click_Left="1" ReleaseNow="0" Center_X="0.000000" Center_Y="0.000000" StopMoving="0" NeedPressed="1" Center_XY_Disable="1" Delay="0">
+<KeyMappingEx ItemName="Alt" Point_X="0.841463" Point_Y="0.176179" Description="Free view" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="0" OpGuidClass="0" HideTipsAlways="1" InUseDisableView="1" Type="KeyMove" Offset="0.490000" Click_X="0.834375" Click_Y="0.230556" Click_Offset="0.450000" AsciiCode="18" Cancel_X="-0.911133" Cancel_Y="-0.277778" Click_Left="1" ReleaseNow="0" Center_X="0.000000" Center_Y="0.000000" StopMoving="0" NeedPressed="1" UseMousePos="0" Center_XY_Disable="1" Delay="0">
 <SwitchOperation Description="Free view" EnableSwitch="Eye" DisableSwitch="XBtn|MapOpenFlag|InSetUp"/>
 <SwitchOperation Description="Free view" EnableSwitch="OpenEye" DisableSwitch="XBtn|MapOpenFlag|InSetUp"/>
 </KeyMappingEx>

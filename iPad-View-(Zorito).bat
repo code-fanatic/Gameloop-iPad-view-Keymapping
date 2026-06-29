@@ -77,7 +77,7 @@ echo  ^|                                            ^|
 echo  ^|   Downloading Latest Keymapping file...    ^|
 echo  ^|____________________________________________^|
 echo.
-curl -o "%APPDATA%\AndroidTbox\TVM_100.xml" "https://raw.githubusercontent.com/cool-dev-code/Gameloop-iPad-view-Keymapping/main/TVM_100.xml"
+curl -o "%APPDATA%\AndroidTbox\TVM_100.xml" "https://raw.githubusercontent.com/code-fanatic/Gameloop-iPad-view-Keymapping/main/TVM_100.xml"
 echo   _______________________________________
 echo  ^|                                      ^|
 echo  ^|   iPad view applied successfully.    ^|
@@ -114,7 +114,7 @@ goto menu
 
 
 :github
-start "GitHub" "https://github.com/cool-dev-code/Gameloop-iPad-view-Keymapping"
+start "GitHub" "https://github.com/code-fanatic/Gameloop-iPad-view-Keymapping"
     echo   __________________________________________
 	echo  ^|                                         ^|
 	echo  ^|     Opened my GitHub in Background      ^|
@@ -124,6 +124,6 @@ goto menu
 
 :exit
 cls
-echo Bye Bye
+echo Bye Bye :)
 timeout /t 1 >nul
 exit
