@@ -4,7 +4,7 @@
 cls
 echo     _______________________________________
 echo    ^|                                      ^|
-echo    ^|      iPad view by Shuja Plays        ^|
+echo    ^|      iPad view by Code Fanatic       ^|
 echo    ^|                                      ^|
 echo    ^|          (1) Get iPad View           ^|
 echo    ^|          (2) Remove iPad View        ^|
