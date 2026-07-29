@@ -109,7 +109,7 @@
 <KeyMapping ItemName="9" Point_X="0.207957" Point_Y="0.957000" Description="Bandage" MiniVisiable="true" MiniDisable="false" AutoCancel="0" AsciiCode="57" KeyMouseSlideType="1" KeyMouseSlidePoints="(0.292000,0.957000,0)(0.271954,0.957000,15)(0.249350,0.957000,15)(0.228566,0.957000,15)(0.208047,0.957000,15)"/>
 <KeyMapping ItemName="C" Point_X="0.943359" Point_Y="0.912500" Description="Crouch" MiniVisiable="false" MiniDisable="false" AsciiCode="67"/>
 <KeyMapping ItemName="E" Point_X="0.220703" Point_Y="0.493056" Description="Peek" MiniVisiable="false" MiniDisable="false" AsciiCode="69"/>
-<KeyMapping ItemName="F" Point_X="0.669922" Point_Y="0.286111" Description="code-fanatic PUBGM 4.4 iPad View" MiniVisiable="false" MiniDisable="false" AsciiCode="70"/>
+<KeyMapping ItemName="F" Point_X="0.669922" Point_Y="0.286111" Description="code-fanatic PUBGM 4.5 iPad View" MiniVisiable="false" MiniDisable="false" AsciiCode="70"/>
 <KeyMapping ItemName="G" Point_X="0.668945" Point_Y="0.388889" Description="Ride" MiniVisiable="false" MiniDisable="false" AsciiCode="71"/>
 <KeyMapping ItemName="H" Point_X="0.668945" Point_Y="0.445833" Description="Pickup" MiniVisiable="false" MiniDisable="false" AsciiCode="72"/>
 <KeyMapping ItemName="J" Point_X="0.297852" Point_Y="0.641667" Description="Auto Jump" MiniVisiable="true" MiniDisable="false" AutoCancel="0" AsciiCode="74"/>
@@ -239,7 +239,7 @@
 <SwitchOperation Description="自行车" EnableSwitch="Bicycle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.807031" Point_Y="0.635236"/>
 <SwitchOperation Description="自行车按着" EnableSwitch="Bicycle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.807031" Point_Y="0.635236"/>
 </KeyMapping>
-<KeyMapping ItemName="F" Point_X="0.520508" Point_Y="0.150000" Description="code-fanatic PUBGM 4.4 iPad View" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="1002" OpGuidClass="0" AsciiCode="70">
+<KeyMapping ItemName="F" Point_X="0.520508" Point_Y="0.150000" Description="code-fanatic PUBGM 4.5 iPad View" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="1002" OpGuidClass="0" AsciiCode="70">
 <SwitchOperation Description="救人" EnableSwitch="Help" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.502344" Point_Y="0.612500" TexturePosition="Help"/>
 <SwitchOperation Description="取消丢雷" EnableSwitch="CancelFireTheHole" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.253906" Point_Y="0.520833" TexturePosition="CancelFireTheHole"/>
 <SwitchOperation Description="下车" EnableSwitch="GetOutCar" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.870000" Point_Y="0.452222" HideTips="1" TexturePosition="GetOutCar"/>
@@ -555,7 +555,7 @@
 <SwitchOperation Description="自行车" EnableSwitch="Bicycle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.861498" Point_Y="0.723325"/>
 <SwitchOperation Description="自行车按着" EnableSwitch="Bicycle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.861498" Point_Y="0.723325"/>
 </KeyMapping>
-<KeyMapping ItemName="F" Point_X="0.518315" Point_Y="0.042969" Description="code-fanatic PUBGM 4.4 iPad View" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="1002" OpGuidClass="0" AsciiCode="70">
+<KeyMapping ItemName="F" Point_X="0.518315" Point_Y="0.042969" Description="code-fanatic PUBGM 4.5 iPad View" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="1002" OpGuidClass="0" AsciiCode="70">
 <SwitchOperation Description="救人" EnableSwitch="Help" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.500781" Point_Y="0.712500" TexturePosition="Help"/>
 <SwitchOperation Description="取消丢雷" EnableSwitch="CancelFireTheHole" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.188281" Point_Y="0.663889" TexturePosition="CancelFireTheHole"/>
 <SwitchOperation Description="下车" EnableSwitch="GetOutCar" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.870000" Point_Y="0.452222" HideTips="1" TexturePosition="GetOutCar"/>
@@ -872,7 +872,7 @@
 <SwitchOperation Description="自行车" EnableSwitch="Bicycle" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.861498" Point_Y="0.723325"/>
 <SwitchOperation Description="自行车按着" EnableSwitch="Bicycle1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.861498" Point_Y="0.723325"/>
 </KeyMapping>
-<KeyMapping ItemName="F" Point_X="0.516484" Point_Y="0.042969" Description="code-fanatic PUBGM 4.4 iPad View" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="1002" OpGuidClass="0" AsciiCode="70">
+<KeyMapping ItemName="F" Point_X="0.516484" Point_Y="0.042969" Description="code-fanatic PUBGM 4.5 iPad View" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="1002" OpGuidClass="0" AsciiCode="70">
 <SwitchOperation Description="救人" EnableSwitch="Help" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.500781" Point_Y="0.720833" TexturePosition="Help"/>
 <SwitchOperation Description="取消丢雷" EnableSwitch="CancelFireTheHole" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.188281" Point_Y="0.663889" TexturePosition="CancelFireTheHole"/>
 <SwitchOperation Description="下车" EnableSwitch="GetOutCar" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.870000" Point_Y="0.452222" HideTips="1" TexturePosition="GetOutCar"/>
