@@ -124,7 +124,7 @@
 <KeyMappingEx ItemName="WASD" Point_X="0.158594" Point_Y="0.751389" Description="字母键" MiniVisiable="false" MiniDisable="false" Type="CrossKey" speed="0" UP_AsciiCode="87" DOWN_AsciiCode="83" LEFT_AsciiCode="65" RIGHT_AsciiCode="68" Offset="0.070258" ShiftOffset="0.100000"/>
 <KeyMappingEx ItemName="Left Mouse Button" Point_X="0.068359" Point_Y="0.511111" Description="Fire" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" Type="LClick" LOCK_AsciiCode="192"/>
 <KeyMappingEx ItemName="Move with Mouse" Point_X="0.543680" Point_Y="0.378412" Description="View Point" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" Raw="1" Type="RClick" RawInputOffset="0.300000" Sensi_X="1.000000" Sensi_Y="1.000000"/>
-<KeyMappingEx ItemName="Alt" Point_X="0.777875" Point_Y="0.240099" Description="Free view" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="1001" OpGuidClass="0" InUseDisableView="1" Type="KeyMove" Offset="230" Click_X="0.500000" Click_Y="0.550000" Click_Offset="0.450000" AsciiCode="18" Cancel_X="-0.911133" Cancel_Y="-0.277778" Click_Left="1" ReleaseNow="0" Center_X="0.000000" Center_Y="0.000000" StopMoving="0" NeedPressed="1" Center_XY_Disable="1" Delay="0"/>
+<KeyMappingEx ItemName="Alt" Point_X="0.777875" Point_Y="0.240099" Description="Free view" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="1001" OpGuidClass="0" InUseDisableView="1" Type="KeyMove" Offset="230" Click_X="0.777875" Click_Y="0.240099" Click_Offset="0.450000" AsciiCode="18" Cancel_X="-0.911133" Cancel_Y="-0.277778" Click_Left="1" ReleaseNow="0" Center_X="0.000000" Center_Y="0.000000" StopMoving="0" NeedPressed="1" UseMousePos="0" Center_XY_Disable="1" Delay="50"/>
 </KeyMapMode>
 <KeyMapMode ModeID="2" Name="iPad 720" ShowTipsAlways="1">
 <KeyMapping ItemName="Right Click" Point_X="0.934982" Point_Y="0.725260" Description="Scope Open/Close" MiniVisiable="false" MiniDisable="false" ShowOnLockAsciiCode="192" AsciiCode="-2">
@@ -354,7 +354,7 @@
 <KeyMappingEx ItemName="Move with Mouse" Point_X="0.516406" Point_Y="0.333333" Description="View Point" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" AutoActive="1" Raw="1" Type="RClick" Offset="0.450000" LOCK_AsciiCode="192" AsciiCode="17" Sensi_X="1.000000" Sensi_Y="1.000000">
 <SwitchOperation Description="View Point" EnableSwitch="SetUp" DisableSwitch="MapOpenFlag|XBtn|InSetUp|EmojiPressed|Shop1"/>
 </KeyMappingEx>
-<KeyMappingEx ItemName="Alt" Point_X="0.777875" Point_Y="0.240099" Description="Free view" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="0" OpGuidClass="0" HideTipsAlways="1" InUseDisableView="1" Type="KeyMove" Offset="0.490000" Click_X="0.776563" Click_Y="0.309722" Click_Offset="0.450000" AsciiCode="18" Cancel_X="-0.911133" Cancel_Y="-0.277778" Click_Left="1" ReleaseNow="0" Center_X="0.000000" Center_Y="0.000000" StopMoving="0" NeedPressed="1" Center_XY_Disable="1" Delay="50">
+<KeyMappingEx ItemName="Alt" Point_X="0.777875" Point_Y="0.240099" Description="Free view" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="0" OpGuidClass="0" HideTipsAlways="1" InUseDisableView="1" Type="KeyMove" Offset="0.490000" Click_X="0.777875" Click_Y="0.240099" Click_Offset="0.450000" AsciiCode="18" Cancel_X="-0.911133" Cancel_Y="-0.277778" Click_Left="1" ReleaseNow="0" Center_X="0.000000" Center_Y="0.000000" StopMoving="0" NeedPressed="1" Center_XY_Disable="1" Delay="50">
 <SwitchOperation Description="Free view" EnableSwitch="Eye" DisableSwitch="XBtn|MapOpenFlag|InSetUp"/>
 <SwitchOperation Description="Free view" EnableSwitch="OpenEye" DisableSwitch="XBtn|MapOpenFlag|InSetUp"/>
 </KeyMappingEx>
@@ -620,7 +620,8 @@
 <SwitchOperation Description="Auto Drive" EnableSwitch="Whistle" DisableSwitch="XBtn|MapOpenFlag|InSetUp|DriveMode1Press|DriveMode1" Point_X="0.830882" Point_Y="0.742647"/>
 </KeyMapping>
 <KeyMapping ItemName="M" Point_X="0.974609" Point_Y="0.013889" Description="Map" MiniVisiable="false" MiniDisable="false" AsciiCode="77">
-<SwitchOperation Description="Map" EnableSwitch="MapOpenFlag" DisableSwitch="XBtn|InSetUp" Point_X="0.974609" Point_Y="0.013889"/>
+<SwitchOperation Description="Map" EnableSwitch="SetUp" DisableSwitch="XBtn|InSetUp" Point_X="0.974609" Point_Y="0.013889"/>
+<SwitchOperation Description="关闭地图" EnableSwitch="MapOpenFlag" Point_X="0.974609" Point_Y="0.013889"/>
 </KeyMapping>
 <KeyMapping ItemName="Q" Point_X="0.103659" Point_Y="0.630273" Description="Peek" MiniVisiable="false" MiniDisable="false" AsciiCode="81">
 <SwitchOperation Description="Peek" EnableSwitch="Sideways" DisableSwitch="Moto|Moto2" Point_X="0.103659" Point_Y="0.630273" HideTips="1"/>
@@ -669,7 +670,7 @@
 <KeyMappingEx ItemName="Move with Mouse" Point_X="0.516406" Point_Y="0.333333" Description="View Point" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" AutoActive="1" Raw="1" Type="RClick" Offset="0.050000" LOCK_AsciiCode="192" AsciiCode="17" Sensi_X="1.000000" Sensi_Y="1.000000">
 <SwitchOperation Description="View Point" EnableSwitch="SetUp" DisableSwitch="MapOpenFlag|XBtn|InSetUp|EmojiPressed|Shop1"/>
 </KeyMappingEx>
-<KeyMappingEx ItemName="Alt" Point_X="0.838290" Point_Y="0.169975" Description="Free view" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="0" OpGuidClass="0" HideTipsAlways="1" InUseDisableView="1" Type="KeyMove" Offset="0.490000" Click_X="0.834375" Click_Y="0.230556" Click_Offset="0.450000" AsciiCode="18" Cancel_X="-0.911133" Cancel_Y="-0.277778" Click_Left="1" ReleaseNow="0" Center_X="0.000000" Center_Y="0.000000" StopMoving="0" NeedPressed="1" Center_XY_Disable="1" Delay="50">
+<KeyMappingEx ItemName="Alt" Point_X="0.838290" Point_Y="0.169975" Description="Free view" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="0" OpGuidClass="0" HideTipsAlways="1" InUseDisableView="1" Type="KeyMove" Offset="0.490000" Click_X="0.838290" Click_Y="0.169975" Click_Offset="0.450000" AsciiCode="18" Cancel_X="-0.911133" Cancel_Y="-0.277778" Click_Left="1" ReleaseNow="0" Center_X="0.000000" Center_Y="0.000000" StopMoving="0" NeedPressed="1" Center_XY_Disable="1" Delay="50">
 <SwitchOperation Description="Free view" EnableSwitch="Eye" DisableSwitch="XBtn|MapOpenFlag|InSetUp"/>
 <SwitchOperation Description="Free view" EnableSwitch="OpenEye" DisableSwitch="XBtn|MapOpenFlag|InSetUp"/>
 </KeyMappingEx>
@@ -753,7 +754,7 @@
 <SwitchOperation Description="GrenadeArrowUp" EnableSwitch="GrenadeArrowUp" EnablePositionSwitch="GrenadeArrowUp:0.606250,0.884750,0.695312,0.916667" DisableSwitch="XBtn|MapOpenFlag|InSetUp|YouGood" HideTips="1" TexturePosition="GrenadeArrowUp"/>
 <SwitchOperation Description="GrenadeArrowUp" EnableSwitch="GrenadeArrowUp" EnablePositionSwitch="GrenadeArrowUp:0.606250,0.202847,0.695312,0.884750" DisableSwitch="XBtn|MapOpenFlag|InSetUp|YouGood" HideTips="1" NotifyController="1" TexturePosition="GrenadeArrowUp"/>
 </KeyMappingEx>
-<KeyMappingEx ItemName="Zoom with Scroll Wheel" Point_X="0.736063" Point_Y="0.347395" Description="Scope Zoom" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" Type="WheelPointZoom" Speed="0.031250">
+<KeyMappingEx ItemName="Zoom with Scroll Wheel" Point_X="0.735938" Point_Y="0.122222" Description="Scope Zoom" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" Type="WheelPointZoom" Speed="0.031250">
 <SwitchOperation Description="调焦按钮" EnableSwitch="AdjustMultiples" NotifyController="1" TexturePosition="AdjustMultiples"/>
 <SwitchOperation Description="小白点" EnableSwitch="AdjustMultiplesPressed|SlipWhitePoint" NotifyController="1" TexturePosition="SlipWhitePoint"/>
 </KeyMappingEx>
@@ -937,7 +938,8 @@
 <SwitchOperation Description="Auto Drive" EnableSwitch="Whistle" DisableSwitch="XBtn|MapOpenFlag|InSetUp|DriveMode1Press|DriveMode1" Point_X="0.830882" Point_Y="0.742647"/>
 </KeyMapping>
 <KeyMapping ItemName="M" Point_X="0.974609" Point_Y="0.013889" Description="Map" MiniVisiable="false" MiniDisable="false" AsciiCode="77">
-<SwitchOperation Description="Map" EnableSwitch="MapOpenFlag" DisableSwitch="XBtn|InSetUp" Point_X="0.974609" Point_Y="0.013889"/>
+<SwitchOperation Description="Map" EnableSwitch="SetUp" DisableSwitch="XBtn|InSetUp" Point_X="0.974609" Point_Y="0.013889"/>
+<SwitchOperation Description="关闭地图" EnableSwitch="MapOpenFlag" Point_X="0.974609" Point_Y="0.013889"/>
 </KeyMapping>
 <KeyMapping ItemName="Q" Point_X="0.101916" Point_Y="0.632754" Description="Peek" MiniVisiable="false" MiniDisable="false" AsciiCode="81">
 <SwitchOperation Description="Peek" EnableSwitch="Sideways" DisableSwitch="Moto|Moto2" Point_X="0.101916" Point_Y="0.632754" HideTips="1"/>
@@ -986,7 +988,7 @@
 <KeyMappingEx ItemName="Move with Mouse" Point_X="0.516406" Point_Y="0.333333" Description="View Point" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" AutoActive="1" Raw="1" Type="RClick" Offset="0.450000" LOCK_AsciiCode="192" AsciiCode="17" Sensi_X="1.000000" Sensi_Y="1.000000">
 <SwitchOperation Description="View Point" EnableSwitch="SetUp" DisableSwitch="MapOpenFlag|XBtn|InSetUp|EmojiPressed|Shop1"/>
 </KeyMappingEx>
-<KeyMappingEx ItemName="Alt" Point_X="0.841463" Point_Y="0.176179" Description="Free view" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="0" OpGuidClass="0" HideTipsAlways="1" InUseDisableView="1" Type="KeyMove" Offset="0.490000" Click_X="0.834375" Click_Y="0.230556" Click_Offset="0.450000" AsciiCode="18" Cancel_X="-0.911133" Cancel_Y="-0.277778" Click_Left="1" ReleaseNow="0" Center_X="0.000000" Center_Y="0.000000" StopMoving="0" NeedPressed="1" Center_XY_Disable="1" Delay="0">
+<KeyMappingEx ItemName="Alt" Point_X="0.841463" Point_Y="0.176179" Description="Free view" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="0" OpGuidClass="0" HideTipsAlways="1" InUseDisableView="1" Type="KeyMove" Offset="0.490000" Click_X="0.841463" Click_Y="0.176179" Click_Offset="0.450000" AsciiCode="18" Cancel_X="-0.911133" Cancel_Y="-0.277778" Click_Left="1" ReleaseNow="0" Center_X="0.000000" Center_Y="0.000000" StopMoving="0" NeedPressed="1" UseMousePos="0" Center_XY_Disable="1" Delay="50">
 <SwitchOperation Description="Free view" EnableSwitch="Eye" DisableSwitch="XBtn|MapOpenFlag|InSetUp"/>
 <SwitchOperation Description="Free view" EnableSwitch="OpenEye" DisableSwitch="XBtn|MapOpenFlag|InSetUp"/>
 </KeyMappingEx>
@@ -1060,7 +1062,7 @@
 <KeyMappingEx ItemName="9" Point_X="0.360000" Point_Y="0.826389" Description="Bandage" MiniVisiable="false" MiniDisable="false" Type="FoldClick2" AsciiCode="57">
 <SwitchOperation Description="Bandage" EnablePositionSwitch="Medicine3:0.257812,0.202847,0.384375,1.000000" DisableSwitch="XBtn|MapOpenFlag|InSetUp|YouGood" NotifyController="2" TexturePosition="Medicine3"/>
 </KeyMappingEx>
-<KeyMappingEx ItemName="Zoom with Scroll Wheel" Point_X="0.830139" Point_Y="0.384615" Description="Scope Zoom" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" Type="WheelPointZoom" Speed="0.031250">
+<KeyMappingEx ItemName="Zoom with Scroll Wheel" Point_X="0.735938" Point_Y="0.122222" Description="Scope Zoom" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" Type="WheelPointZoom" Speed="0.031250">
 <SwitchOperation Description="调焦按钮" EnableSwitch="AdjustMultiples" NotifyController="1" TexturePosition="AdjustMultiples"/>
 <SwitchOperation Description="小白点" EnableSwitch="AdjustMultiplesPressed|SlipWhitePoint" NotifyController="1" TexturePosition="SlipWhitePoint"/>
 </KeyMappingEx>
