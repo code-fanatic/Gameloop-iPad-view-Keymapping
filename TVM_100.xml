@@ -1,5 +1,5 @@
 <Item ApkName="com.tencent.ig" 备注="PUBG Mobile Global (iPad View) - code-fanatic" VersionCode="17000">
-<StartInfo StartTimes="2"/>
+<StartInfo StartTimes="1"/>
 <LastMode ModeID="1" EnableTips="0" EnableGameKeyDT="1" TipsTransparent="0.500000" Lightness="1.000000" EnableSwitchViewLockMethod="0" ExitFullScreenKey="122"/>
 <VersionInfo Version="73" ReqFeatureVer="7" CurFeatureVer="8"/>
 <Switch Name="AdjustMultiples" TextureId="81"/>
@@ -139,9 +139,9 @@
 <KeyMapping ItemName="Tab" Point_X="0.052198" Point_Y="0.945313" Description="Backpack" MiniVisiable="false" MiniDisable="false" AsciiCode="9">
 <SwitchOperation Description="关背包" EnableSwitch="XBtn" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.975781" Point_Y="0.043056"/>
 <SwitchOperation Description="Backpack" EnableSwitch="Backpage" DisableSwitch="InSetUp" Point_X="0.075781" Point_Y="0.915278"/>
-<SwitchOperation Description="1级背包" EnableSwitch="Backpage1" DisableSwitch="InSetUp" Point_X="0.075781" Point_Y="0.915278"/>
-<SwitchOperation Description="2级背包" EnableSwitch="Backpage2" DisableSwitch="InSetUp" Point_X="0.075781" Point_Y="0.915278"/>
-<SwitchOperation Description="3级背包" EnableSwitch="Backpage3" DisableSwitch="InSetUp" Point_X="0.075781" Point_Y="0.915278"/>
+<SwitchOperation Description="Backpack Lvl 1" EnableSwitch="Backpage1" DisableSwitch="InSetUp" Point_X="0.075781" Point_Y="0.915278"/>
+<SwitchOperation Description="Backpack Lvl 2" EnableSwitch="Backpage2" DisableSwitch="InSetUp" Point_X="0.075781" Point_Y="0.915278"/>
+<SwitchOperation Description="Backpack Lvl 3" EnableSwitch="Backpage3" DisableSwitch="InSetUp" Point_X="0.075781" Point_Y="0.915278"/>
 </KeyMapping>
 <KeyMapping ItemName="Shift" Point_X="0.804029" Point_Y="0.830729" Description="Run / Speed Boost Car" MiniVisiable="false" MiniDisable="false" AsciiCode="16">
 <SwitchOperation Description="加速(驾驶模式1)" EnableSwitch="DriveMode1|DriveSpeed" DisableSwitch="XBtn|MapOpenFlag|InSetUp|Moto|Moto2" Point_X="0.082714" Point_Y="0.555831"/>
@@ -621,6 +621,7 @@
 </KeyMapping>
 <KeyMapping ItemName="M" Point_X="0.974609" Point_Y="0.013889" Description="Map" MiniVisiable="false" MiniDisable="false" AsciiCode="77">
 <SwitchOperation Description="Map" EnableSwitch="MapOpenFlag" DisableSwitch="XBtn|InSetUp" Point_X="0.974609" Point_Y="0.013889"/>
+<SwitchOperation Description="关闭地图" EnableSwitch="MapOpenFlag" Point_X="0.974609" Point_Y="0.013889"/>
 </KeyMapping>
 <KeyMapping ItemName="Q" Point_X="0.103659" Point_Y="0.630273" Description="Peek" MiniVisiable="false" MiniDisable="false" AsciiCode="81">
 <SwitchOperation Description="Peek" EnableSwitch="Sideways" DisableSwitch="Moto|Moto2" Point_X="0.103659" Point_Y="0.630273" HideTips="1"/>
@@ -938,6 +939,7 @@
 </KeyMapping>
 <KeyMapping ItemName="M" Point_X="0.974609" Point_Y="0.013889" Description="Map" MiniVisiable="false" MiniDisable="false" AsciiCode="77">
 <SwitchOperation Description="Map" EnableSwitch="MapOpenFlag" DisableSwitch="XBtn|InSetUp" Point_X="0.974609" Point_Y="0.013889"/>
+<SwitchOperation Description="关闭地图" EnableSwitch="MapOpenFlag" Point_X="0.974609" Point_Y="0.013889"/>
 </KeyMapping>
 <KeyMapping ItemName="Q" Point_X="0.101916" Point_Y="0.632754" Description="Peek" MiniVisiable="false" MiniDisable="false" AsciiCode="81">
 <SwitchOperation Description="Peek" EnableSwitch="Sideways" DisableSwitch="Moto|Moto2" Point_X="0.101916" Point_Y="0.632754" HideTips="1"/>
