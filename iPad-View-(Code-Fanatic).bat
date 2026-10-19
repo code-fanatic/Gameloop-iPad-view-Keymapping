@@ -49,7 +49,7 @@ if "%choice%"=="3" goto menu
 cls
 echo   _____________________________________________
 echo  ^|                                            ^|
-echo  ^|   Creating backup of Keymapping file...    ^|
+echo  ^|   Creating backup of Key-mapping file...    ^|
 echo  ^|____________________________________________^|
 echo.
 set "localFile=%APPDATA%\AndroidTbox\TVM_100.xml"
@@ -72,15 +72,15 @@ echo  ^|__________________________________________________________^|
 )
 
 echo.
-echo   _____________________________________________
-echo  ^|                                            ^|
-echo  ^|   Downloading Latest Keymapping file...    ^|
-echo  ^|____________________________________________^|
+echo   _______________________________________________
+echo  ^|                                             ^|
+echo  ^|   Downloading Latest Key-mapping file...    ^|
+echo  ^|_____________________________________________^|
 echo.
 curl -o "%APPDATA%\AndroidTbox\TVM_100.xml" "https://raw.githubusercontent.com/code-fanatic/Gameloop-iPad-view-Keymapping/main/TVM_100.xml"
 echo   _______________________________________
 echo  ^|                                      ^|
-echo  ^|   iPad view applied successfully.    ^|
+echo  ^|   iPad view Applied successfully.    ^|
 echo  ^|______________________________________^|
 echo.
 echo   ______________________________________
@@ -88,7 +88,7 @@ echo  ^|                                     ^|
 echo  ^|       Subscribe to my Channel       ^|
 echo  ^|_____________________________________^|
 pause
-start "Subscribe" "https://www.youtube.com/@ShujaPlays"
+start "Subscribe" "https://www.youtube.com/@Unknown_DC_Panda"
 goto menu
 
 :remove_ipad_view
