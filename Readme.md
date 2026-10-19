@@ -19,7 +19,7 @@
 
 ## ✨ Supported Versions:
 
-> 🆕 Last Update Date: 16-Oct-2026
+> 🆕 Last Update Date: 19-Oct-2026
 - 🔫 PUBG Mobile `4.6`
 - 🌍 Gameloop **(32 bit)** `4.1.143.90`
 - 🌍 Gameloop **(64 bit)** `5.1.153.90`
@@ -28,11 +28,19 @@
 - New Gameloop Coming soon ......
 
 ## 📜 Change logs:
-- Ported to PUBG Mobile 4.6
-- Improved (Alt) button in 2k Keymapping
+- Fixed Alt button on 2K
+- Fixed Map `M` button.
+- Improved buttons alignment with key-mapping.
+- In game **Swim buttons** now visible in game.
+- Added **Sprint Button** while swimming.
+- Added **Auto Accelerate** while driving.
+- Removed extra `F4` & `J` buttons.
+- Optimised for better FPS when tips enabled.
+- Zoom with mouse scroll wheel fixed
+
 
 ## ❌ Not yet working:
-- Scope Zoom with scroll wheel (Middle mouse button)
+- Every thing works
 ---
 
 ## ⚠️ Attention
@@ -64,8 +72,8 @@
 |	Display Resolution	|	Engine Resolution	|	Game Definition	|	Engine DPI	|
 |	:-------------:	|	:------------:	|	:------------:	|	:------------:	|
 |	<b>1280x720</b>	|	960x720	|	SD 720P	|	160	|
-|	<b>1920x1080</b>	|	1440x1080	|	HD 1080P	|		|
-|	<b>2560x1440</b>	|	1920x1440	|	FHD 2K	|		|
+|	<b>1920x1080</b>	|	1440x1080	|	HD 1080P	|	160	|
+|	<b>2560x1440</b>	|	1920x1440	|	FHD 2K	|	160	|
 
 ## 🎗️ More
 - 📚 [Wiki](https://github.com/code-fanatic/Gameloop-iPad-view-Keymapping/wiki) - For more details.
