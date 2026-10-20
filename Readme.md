@@ -1,21 +1,18 @@
 # Gameloop iPad View Key-mapping
 
----
-## 👉 YouTube Tutorial
-<a href="https://www.youtube.com/watch?v=2CHkmXX25Vk" title="iPad view in PUBG Mobile Gameloop 100% safe">
-  <p align="center">
-    <img width="50%" src="https://i3.ytimg.com/vi/2CHkmXX25Vk/maxresdefault.jpg" alt="iPad view in Gameloop PUBG Mobile"/>
-  </p>
-</a>
-
-
-
 **Get iPad view on any Gameloop with full key-mapping support (better then original)**. 
 > **Note**
 - SD 720P (Supported)✅
 - HD 1080P (Supported)✅
 - FHD 2K (Supported)✅
 ---
+
+## 👉 YouTube Tutorial
+<a href="https://www.youtube.com/watch?v=2CHkmXX25Vk" title="iPad view in PUBG Mobile Gameloop 100% safe">
+  <p align="center">
+    <img width="50%" src="https://i3.ytimg.com/vi/2CHkmXX25Vk/maxresdefault.jpg" alt="iPad view in Gameloop PUBG Mobile"/>
+  </p>
+</a>
 
 ## ✨ Supported Versions:
 
@@ -27,25 +24,9 @@
 - 🇨🇳 Tencent Mobile Game Assistant / Tencent Gaming Buddy TGB / Chinese Gameloop **(64 bit)** `5.0.444.80`
 - New Gameloop Coming soon ......
 
-## 📜 Change logs:
-- Fixed Alt button on 2K
-- Fixed Map `M` button.
-- Improved buttons alignment with key-mapping.
-- In game **Swim buttons** now visible in game.
-- Added **Sprint Button** while swimming.
-- Added **Auto Accelerate** while driving.
-- Removed extra `F4` & `J` buttons.
-- Optimised for better FPS when tips enabled.
-- Zoom with mouse scroll wheel fixed
-
-
-## ❌ Not yet working:
-- Every thing works
----
-
 ## ⚠️ Attention
 > **Note**
-> Please verify [version](https://github.com/code-fanatic/Gameloop-iPad-view-Keymapping/blob/main/Readme.md#-version-update) of `PUBG Mobile`and `Emulator` before using.
+> Please verify if you are using [Supported Version](https://github.com/code-fanatic/Gameloop-iPad-view-Keymapping/edit/main/Readme.md#-supported-versions) of `PUBG Mobile`and `Emulator` before using.
 
 ## ⬇️ How to get iPad View .. *(Automatic Method)*:
 - Completely close Gameloop if running.
@@ -66,14 +47,15 @@
 - Restart PUBG Mobile.
 - Enjoy iPad View :)
 
-## 💻 iPad Resolution Calculator
-- Go to [iPad View Calculator](https://code-fanatic.github.io/iPad-View-Calculator/) to calculate your resolution
 ## ☑️ Suggested Resolutions
 |	Display Resolution	|	Engine Resolution	|	Game Definition	|	Engine DPI	|
 |	:-------------:	|	:------------:	|	:------------:	|	:------------:	|
 |	<b>1280x720</b>	|	960x720	|	SD 720P	|	160	|
 |	<b>1920x1080</b>	|	1440x1080	|	HD 1080P	|	160	|
 |	<b>2560x1440</b>	|	1920x1440	|	FHD 2K	|	160	|
+
+## 💻 iPad Resolution Calculator
+- Go to [iPad View Calculator](https://code-fanatic.github.io/iPad-View-Calculator/) to calculate your resolution
 
 ## 🎗️ More
 - 📚 [Wiki](https://github.com/code-fanatic/Gameloop-iPad-view-Keymapping/wiki) - For more details.
