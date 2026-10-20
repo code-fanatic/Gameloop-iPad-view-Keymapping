@@ -48,7 +48,7 @@
 - Enjoy iPad View :)
 
 ## ☑️ Suggested Resolutions
-|	Display Resolution	|	Engine Resolution	|	Game Definition	|	Engine DPI	|
+|	Monitor Resolution	|	Engine Resolution	|	Game Definition	|	Engine DPI	|
 |	:-------------:	|	:------------:	|	:------------:	|	:------------:	|
 |	<b>1280x720</b>	|	960x720	|	SD 720P	|	160	|
 |	<b>1920x1080</b>	|	1440x1080	|	HD 1080P	|	160	|
