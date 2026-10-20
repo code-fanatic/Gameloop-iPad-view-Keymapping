@@ -26,7 +26,7 @@
 
 ## ⚠️ Attention
 > **Note**
-> Please verify if you are using [Supported Version](https://github.com/code-fanatic/Gameloop-iPad-view-Keymapping/edit/main/Readme.md#-supported-versions) of `PUBG Mobile`and `Emulator` before using.
+> Please verify if you are using [Supported Version](https://github.com/code-fanatic/Gameloop-iPad-view-Keymapping/tree/main#-supported-versions) of `PUBG Mobile`and `Emulator` before using.
 
 ## ⬇️ How to get iPad View .. *(Automatic Method)*:
 - Completely close Gameloop if running.
