@@ -2,9 +2,10 @@
 
 **Get iPad view on any Gameloop with full key-mapping support (better then original)**. 
 > **Note**
-- SD 720P (Supported)✅
-- HD 1080P (Supported)✅
-- FHD 2K (Supported)✅
+- ✅️ SD 720P (Normal Keys Supported)
+- ✅️ SD 720P (Smart Keys Supported)
+- ✅️ HD 1080P (Smart Keys Supported)
+- ✅️ FHD 2K (Smart Keys Supported)
 ---
 
 ## 👉 YouTube Tutorial
@@ -16,7 +17,7 @@
 
 ## ✨ Supported Versions:
 
-> 🆕 Last Update Date: 19-Oct-2026
+> 🆕 Last Update Date: 28-Oct-2026
 - 🔫 PUBG Mobile `4.6`
 - 🌍 Gameloop **(32 bit)** `4.1.143.90`
 - 🌍 Gameloop **(64 bit)** `5.1.153.90`
